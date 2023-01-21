@@ -28,7 +28,7 @@
 
 #share-div {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 a {
@@ -53,8 +53,14 @@ a {
   font-size: 1rem;
   padding: 0.75rem;
   border-radius: 5%;
+  border: 3px solid rgba(18, 18, 18, 0.7);
 
-  color: #E9EDE8;
+  color: #e9ede8;
 
   cursor: pointer;
+}
+
+.share-icon {
+  font-size: 2rem;
+  align-self: flex-end;
 }

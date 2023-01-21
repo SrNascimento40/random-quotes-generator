@@ -56,10 +56,10 @@ function App() {
         </div>
         <div id="interactive">
           <div id="share-div">
-            <a href="twitter.com" id="insta-quote" target="_blank">
-              <AiFillInstagram />
+            <a className="share-icon" href="twitter.com" id="insta-quote" target="_blank">
+              <AiFillInstagram  />
             </a>
-            <a href={`https://twitter.com/intent/tweet?text=${data.quote} - ${data.author}`} id="tweet-quote" target="_blank">
+            <a className="share-icon" href={`https://twitter.com/intent/tweet?text=${data.quote} - ${data.author}`} id="tweet-quote" target="_blank">
               <AiOutlineTwitter />
             </a>
           </div>
